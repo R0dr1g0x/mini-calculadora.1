@@ -1,0 +1,14 @@
+n1 = int(input('Ingrese un numero\n'))
+n2 = int(input('Ingrese un numero\n'))
+suma = n1 + n2
+resta = n1 - n2
+multiplicacion = n1 * n2 
+division = n1 / n2 
+division_entera  = n1 // n2 
+resto = n1 % n2 
+print(n1,' + ',n2,' = ',suma)
+print(n1,' - ',n2,' = ',resta)
+print(n1,' * ',n2,' = ',multiplicacion)
+print(n1,' / ',n2,' = ',division)
+print(n1,' // ',n2,' = ',division_entera)
+print(n1,' % ',n2,' = ',resto)
